@@ -12,7 +12,7 @@ require_once 'lib/credentialHandler.php';
 require_once 'init.php';
 
 require_once ADWORDS_UTIL_PATH . '/ReportUtils.php';
-function myFunction($month){
+function starter($month){
 	try {
 
 	checkLogout();

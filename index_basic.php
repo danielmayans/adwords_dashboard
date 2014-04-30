@@ -12,6 +12,7 @@ include 'lib/login_report.php';
 <body>
     <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
         <select name="month">
+            <option disabled selected>Select Month</option>
             <option name="jan" value="jan">January</option>
             <option name="feb" value="feb">February</option>
             <option name="mar" value="mar">March</option>
@@ -27,16 +28,21 @@ include 'lib/login_report.php';
         </select>
         <input type="submit" name="enviar" value="GO!"/>
     </form>
-<?php 
+<?php
 
     try{
         if(isset($_POST['month'])){
             $month = $_POST['month'];
+            print('<script>var month = "'.$month.'";
+                $("option[name="+ month +"]").attr("selected","true");
+                </script>');
+            $keyData = starter($month);
+            drawTable($keyData);
+
+            print('<script>starter();</script>');
         }else{
             $month=null;
         }
-        $keyData = myFunction($month);
-        drawTable($keyData);
     }catch(Exception $e){
         printf("An error has occurred: %s\n", $e->getMessage());
     }
