@@ -1,5 +1,4 @@
 <?php
-
 function getCampaigns(){
   function GetCampaignsExample(AdWordsUser $user) {
     // Get the service, which loads the required classes.
@@ -13,16 +12,24 @@ function getCampaigns(){
     // Create paging controls.
     $selector->paging = new Paging(0, AdWordsConstants::RECOMMENDED_PAGE_SIZE);
 
+    $arrayCampaigns = array();
+
     do {
       // Make the get request.
       $page = $campaignService->get($selector);
 
       // Display results.
       if (isset($page->entries)) {
-        foreach ($page->entries as $campaign) {
+        foreach ($page->entries as $index=>$campaign) {
+          /*
           printf("Campaign with name '%s' and ID '%s' was found.</br>\n",
               $campaign->name, $campaign->id);
+          */
+          $arrayCampaigns[$index] = array($campaign->id=>$campaign->name);
         }
+
+        return $arrayCampaigns;
+
       } else {
         print "No campaigns were found.\n";
       }
@@ -41,7 +48,8 @@ function getCampaigns(){
     $user->LogAll();
 
     // Run the example.
-    GetCampaignsExample($user);
+    return GetCampaignsExample($user);
+
   } catch (Exception $e) {
     printf("An error has occurred: %s\n", $e->getMessage());
   }

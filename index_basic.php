@@ -1,6 +1,7 @@
 <?php
 session_start();
 include 'lib/login_report.php';
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,9 @@ include 'lib/login_report.php';
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 <body>
-    <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
+
+<?php print('
+    <form method="post" action="'.$_SERVER['PHP_SELF'].'">
         <select name="month">
             <option disabled selected>Select Month</option>
             <option name="jan" value="jan">January</option>
@@ -26,23 +29,50 @@ include 'lib/login_report.php';
             <option name="nov" value="nov">November</option>
             <option name="dec" value="dec">December</option>
         </select>
-        <input type="submit" name="enviar" value="GO!"/>
-    </form>
-<?php
+    ');
 
     try{
-        if(isset($_POST['month'])){
-            $month = $_POST['month'];
-            print('<script>var month = "'.$month.'";
-                $("option[name="+ month +"]").attr("selected","true");
-                </script>');
-            $keyData = starter($month);
-            drawTable($keyData);
+        $arrayCampaigns = getCampaigns();
+        $numCamp = count($arrayCampaigns);
+        $numCamp>1
+        ?print($numCamp.' campaigns found.<br/>')
+        :print($numCamp.' campaign found.<br/>');
 
-            print('<script>starter();</script>');
+        print('<select name="campaign">');
+        print('<option disabled selected>Select Campaign</option>');
+        foreach($arrayCampaigns as $campaigns){
+            foreach($campaigns as $in=>$name){
+                print('<option value="'.$name.' "name="'.$name.'">'.$name.'</option>');
+            }
+        }
+        print('</select>
+            <input type="submit" name="enviar" value="Request"/>
+            </form>');
+
+        if(isset($_POST['month']) && isset($_POST['campaign'])){
+            $month = $_POST['month'];
+            $campaign = $_POST['campaign'];
+
+            print('<script>var month = "'.$month.'";
+                var campaign = "'.$campaign.'";
+
+                $("option[name="+ month +"]").attr("selected","true");
+                $("option[name="+ campaign +"]").attr("selected","true");
+
+                </script>');
+            $keyData = starter($month,$campaign);
+            drawTable($keyData);
+            
+            if(isset($_POST['downloadcsv'])){
+                downloadCSV($month,$campaign);
+                $partes_ruta = pathinfo($_SERVER['REQUEST_URI']);
+                $dirname = $partes_ruta['dirname'];
+                print('<script>var dirname = "'.$dirname.'/lib/report.csv";alert_download();</script>');
+            }
         }else{
             $month=null;
         }
+
     }catch(Exception $e){
         printf("An error has occurred: %s\n", $e->getMessage());
     }

@@ -162,7 +162,7 @@ function RunExample(AdWordsUser $user) {
 }
 
 function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
-    $reportFormat,$month) {
+    $reportFormat,$month,$campaign) {
   // Prepare a date range for the last week. Instead you can use 'LAST_7_DAYS'.
 
     switch($month){
@@ -213,7 +213,7 @@ function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
 
   // Create report query.
   $reportQuery = 'SELECT '.$sFields.' FROM CRITERIA_PERFORMANCE_REPORT '
-                          . 'WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1 '
+                          . 'WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = '.$campaign.' '
                           . 'DURING ' . $dateRange;
 
   // Set additional options.
@@ -234,9 +234,9 @@ function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
     });
     })(jQuery);
     </script>");*/
-
-  return readXML($filePath);
-
+  if($reportFormat=='XML'){
+    return readXML($filePath);
+  }
   //readCSV($filePath,true);
 
 }

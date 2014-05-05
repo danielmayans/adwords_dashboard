@@ -8,6 +8,13 @@ function drawTable($keyData){
 
 	tH($keywordHeaders);
 	tD($keywords);
+
+	print("</table>");
+
+	print('<form method="POST" action="'.$_SERVER['PHP_SELF'].'">
+		<input type="hidden" value="'.$_POST['month'].'" name="month"/>
+		<input type="hidden" value="'.$_POST['campaign'].'" name="campaign"/>
+		<input type="submit" value="Generate CSV" name="downloadcsv"/></form>');
 }
 function tH($keywordHeaders){
 	print("<tr>");
