@@ -123,24 +123,48 @@ function readCSV($filename, $header=false) {
 
 function readXML($filePath){
   $xml=simplexml_load_file($filePath);
-  $keywordData;
+
+  $keywordData = array();
   $keywords;
   $count = 0;
   foreach ($xml->table->row as $row) {
-    $keywordData = array(
-    "keywordID" => (string)($row['keywordID']),
-    "keywordPlacement" => (string)($row['keywordPlacement']),
-    "criteriaType" => (string)($row['criteriaType']),
-    "campaignID" => (string)($row['campaignID']),
-    "campaign" => (string)($row['campaign']),
-    "adGroupID" => (string)($row['adGroupID']),
-    "impressions" => (int)($row['impressions']),
-    "clicks" => (int)($row['clicks']),
-    "costs" => floatval($row['cost'])
-    );
+    $xml_array = xml2array($row);
+    foreach($xml_array as $array){
+      foreach($array as $i=>$v){
+
+        if(array_key_exists("keywordID", $array)){
+          $keywordData["keywordID"] = (string)$array['keywordID'];
+        }
+        if(array_key_exists("keywordPlacement", $array)){
+            $keywordData["keywordPlacement"] = (string)$array['keywordPlacement'];
+        }
+        if(array_key_exists("criteriaType", $array)){
+            $keywordData["criteriaType"] = (string)$array['criteriaType'];
+        }
+        if(array_key_exists("campaignID", $array)){
+            $keywordData["campaignID"] = (string)$array['campaignID'];
+        }
+        if(array_key_exists("campaign", $array)){
+            $keywordData["campaign"] = (string)$array['campaign'];
+        }
+        if(array_key_exists("adGroupID", $array)){
+            $keywordData["adGroupID"] = (string)$array['adGroupID'];
+        }
+        if(array_key_exists("impressions", $array)){
+            $keywordData["impressions"] = (int)$array['impressions'];
+        }
+        if(array_key_exists("clicks", $array)){
+            $keywordData["clicks"] = (int)$array['clicks'];
+        }
+        if(array_key_exists("cost", $array)){
+            $keywordData["cost"] = floatval($array['cost']);
+        }
+      }
+    }
     $keywords[$count]=$keywordData;
     $count++;
   }
+
   $keywordDataHead;
   $keywordHeaders;
   $counter = 0;
@@ -156,13 +180,21 @@ function readXML($filePath){
   return $keyData;
 }
 
+function xml2array ( $xmlObject, $out = array () )
+{
+        foreach ( (array) $xmlObject as $index => $node )
+            $out[$index] = ( is_object ( $node ) ||  is_array ( $node ) ) ? xml2array ( $node ) : $node;
+
+        return $out;
+}
+
 function RunExample(AdWordsUser $user) {
   $customerService = $user->GetService("CustomerService");
   $customer = $customerService->get();
 }
 
 function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
-    $reportFormat,$month,$campaign) {
+    $reportFormat,$month,$campaign,$op_checked=null) {
   // Prepare a date range for the last week. Instead you can use 'LAST_7_DAYS'.
 
     switch($month){
@@ -205,11 +237,21 @@ function DownloadCriteriaReportWithAwqlExample(AdWordsUser $user, $filePath,
       default: $dateRange = sprintf('%d,%d',
         date('Ymd', strtotime('-90 day')), date('Ymd', strtotime('-1 day')));
     }
+    $sFields="";
+    if($op_checked!=null){        
+      foreach($op_checked as $check){
+        $sFields = $sFields.$check.',';
+      }
+      $sField_length = count($sFields);
+      $sFields = substr($sFields, 0, -1);
+    }else{
+      $sFields = "Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost";
+    }
 
   // DATE RANGE
   // 20140101,20140301 [ JAN 1 - MAR 1]
 
-  $sFields = "Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost";
+  //$sFields = "Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost";
 
   // Create report query.
   $reportQuery = 'SELECT '.$sFields.' FROM CRITERIA_PERFORMANCE_REPORT '

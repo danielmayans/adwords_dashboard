@@ -2837,3 +2837,2212 @@ __fmt: CSV
 
 Response Code: 200
 
+[May 06 2014 08:23:09.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UdzRaGVOsC-PHw2Y229S3InPJYSxSgHypCntVGMHsQBAUf9Gld_2j7FB4LoQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------ad758cba8856
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 06 2014 08:23:41.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VClpXUFzkYvIA4uJfO_V5brYRn950J16plrTJlnr-zdnw8O_7M10gH3O4KKg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------ad758cba8856
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 06 2014 08:23:45.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WD48Igrgey34QTm65jfhIoSdJ4gYkcpPzynigvMbD8oKDdB1uv99o8YQtHXQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------08a95d8432f1
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: CSV
+
+Response Code: 200
+
+[May 07 2014 08:09:32.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Wko6EBfCVZ_0hKq7KLzLsRAKTOwGtvamkQKAGKIilWlnJN0vzE_qpJUoD-0g
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 441
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------ecfffb6c187f
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140206,20140506
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 07 2014 08:09:54.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_X-SOS4YZAygba4N7rHwgLA_ozpfMHNPmEPmV2RkG50pfd01ltnwcYKO-DNdw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------5ddad3f31dce
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:17:13.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UimCpS6-6Sue0i3Y6HjkCS9qxhjfkOQGfB0nN2J9ufO8ue6t1ftJSRnr-a0w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 441
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a4b0e39d170c
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140207,20140507
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 08 2014 08:17:51.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Ute7HlySITq0g-xf-aCPvSE2a-T8J4hSCZlqMh_9r-h80nm3AXLCjUfAetyA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8f0ecaaed125
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:24:38.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WjpfPS0zEPwh453mFD0I1ACUbNv32IL7emamyBHiz46fvjJcM6D0QDiDnZjQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8f0ecaaed125
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:42:20.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Ui_Ybwl56zeO7xmYCLf1d2knJZhPiHqVChYY2HXctBRaqgmQGMxdPql5w4bg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 455
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8f0ecaaed125
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost,Ctr FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:42:27.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_ViYM8OIS0dNG2AKPN8AheALfDuefWU11rCUXLrb5arfcjBKn2Y6-USRUApWA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 455
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8f0ecaaed125
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost,Ctr FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:42:33.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Welp7w3HVhekV3N-sYNZYbpBp-egAYAdABVphD5vtvHsqVYKO_1cEI9hM9Tg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 455
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------688cf3655889
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost,Ctr FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:42:40.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_ULMyO3DckDvUUwbwxyi6gIkuFk78uLWFF8o3VqnD3esQyNMGPvcr1QgdGN6Q
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 455
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8f0ecaaed125
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost,Ctr FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:45:23.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VJSeaqAheKDdubdewlASRrldU5SEO5BMiuvyJA9L5GQqKmU8oGJd3ECtyClg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 450
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8f0ecaaed125
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Ctr FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:46:10.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VZXNbDeF9df8xGIpKdYz1uiX86GpFJQmtFpY1wabLQd4zUfqk2qTCelb3hNQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 456
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------688cf3655889
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost,Date FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:46:40.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Vn0xMUMIP6sHPGY54wpDu1WlaTAXrMaGvywtfmtQtB4KLlNLFVizaCu9nTCw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------688cf3655889
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:46:46.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UgmFE7-hyYTM3I1SA6klI0LkqUfFn6wzMmm1518nvLPmQvK9UiaTiR68bbQA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------66205fcc2d2a
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:46:52.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VCquOkBiTWYUiiiCg3nIJqSTxZSmAAjA7kNqXZcNt0WT2coR6_5tzI6c86fw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------98f0bd5143ef
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:46:59.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WT7BaA-tAv6gedYtp0RVxuvrtrJpeZ5ZpyGuW-lghSXM2cjuBqu1TCrTdr4A
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------688cf3655889
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 08:54:59.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VjcUvcBKzFECQ2sJCmdp2Zzl0aooIuLO9z-TbPvVD6rO1UUrjyA0_0tVaErA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 441
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------98f0bd5143ef
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140207,20140507
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 08 2014 08:55:16.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WVNeexi7xro7ilhzOU27JluT-otbqUoV9tTbmXdHQDiF79x7Kb3aZCIpNSbA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 441
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------98f0bd5143ef
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140207,20140507
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 08 2014 08:55:42.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UKhOs2cwi0qrPvcTC2PZiOS1h3ois3ZCP67rqHAGvbDPHTUzpxVO9ZE0wa4Q
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 441
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------66205fcc2d2a
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140207,20140507
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 08 2014 10:06:48.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WjNdC3dHPfyIUGYVhgTqHXhRr7hbYgIm1v-MRj5wGbC98XDBc4S9LW8m2f1w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------86375cb39020
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:11:04.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_X4Nlp2iOA5CEvoWZHjFaEFmA7jJRzTZk-itk3082QjUFEWXeIC_lg8rRlLfw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------f0b672161d3e
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:12:27.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W7Hae45W6TVR93QokArEVhC7uHpUmid7AlgmNJNk-4ILeo9BCtaN9dbjHczQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------f0b672161d3e
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:30:45.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XgM_FWv7sRkrNeYgnCK473uVEwzhzKNVi_NKK3BR_StcZ8BUV6QjDPxtExxg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 370
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------86375cb39020
+
+Parameters:
+__rdquery: SELECT t FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 't', FieldPath = ''. 
+
+[May 08 2014 10:31:18.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_USgtXxhL7SqCk1pMvPcGX46ODyo3JbXgOqoS6XiZJOflWoe-tZog9v_oB-BQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------661a4742f0cd
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:31:46.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W6OHAvg3QGVOFvk4vmgXgILA50PuNS7-dlaIpvv2_PU27JFoc2eMipWajTJQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b63a4b224c59
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:32:21.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UMh4qqzO5ZQ4MBtjuLSIGNbdZNVLuTEzxAmCkK4ZAFxVgn8QK898MdphTH_A
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------6cae1ba01da6
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:32:55.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VREVOHfWBg3YNf_-zL2_lJyIojqQRrAmm2kmGYt1YjJSiTdMngmkW6Tskgug
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8ce12306e473
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:33:25.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WLggg2xfSnsd57GSYeygre5IRKbUmsJSLVH4dzw4obi2GpwCP-IBzy0UpL2w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------86375cb39020
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:33:53.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WOfscMUyPrf6XH0LLH8aHIGYdWXuhBCkFyuS-mrg3Jx5Vmuouzuw5ngAsOJw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0404651368c0
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:34:44.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UHRkQPNUPEsBYr3v_f_WG0KomTQfD1GVmNHZpISlNakqqZoFhTCEBDMxEKSA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b63a4b224c59
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:35:17.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XtviA94t06qFegGDNrQFkeo6MjCYrWsDFgQOc0JToBWAtZIUTErly8qxaQXw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------661a4742f0cd
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:36:03.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XFJ4VoLZzaydRvDAkcU_0bOYh-Dk4TOkNt7ZRQ3PWsdntHFteRqfDRNyGsAg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8dd48df9c663
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:36:57.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WBjBpdmFHPlSLYIR6DqaRwyFwWkyeYUF5OuzQOyEgiEfgwPL9ed-hFqcz96A
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0404651368c0
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:37:27.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Ww-xJYdQtetEaIsmivBdXHL15G0X4ALjC0r92riXnLZjl4HWj0ktfrxu0mDw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8dd48df9c663
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:39:07.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_U3sxrgMs6BFxAS1dJjTxcFyqwVCZFzM1c2WQtmztAiwjuR6Ma0Rcbgua6Keg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------8ce12306e473
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:39:31.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XcOOwzYnCbOV4unLcUstC1Wrviel10b9kJJU5VGueQ4Tovvom0k-KhmUXGzg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------661a4742f0cd
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:40:18.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VAB03aXoJOlPdKXINLojq3RO_r97dStN9aYmO5xFDppQg7oOJmrd64jH85sA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0404651368c0
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:40:57.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Vy9atBPeLUFb2y3gEYhTk9P06dYYbsvXFz6HY1NudoLXVU2b5iqshEwmr2Vg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 389
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------be31ec912a04
+
+Parameters:
+__rdquery: SELECT Criteria,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 08 2014 10:41:19.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VBGsM9LANB1N1JmLeaFWUcEVDcLFEPMKMU6GrVERE_2ts1Fh9r23LDDqqwbg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------988b5eabe05c
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:37:25.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Ux7snkQndgkQ9wz4k4qpbJ9l-9D0CCmMHvT0Fp0FLPrGJceLGy34-kqNDSBQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 359
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------97b00ea402c0
+
+Parameters:
+__rdquery: SELECT  FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140208,20140508
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 09 2014 08:37:30.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WP7ABmJpnOiyE5SMN3C9UZRr_bNS4F4CoYJU6CrlXlLeYkuymzvghxggHerA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 359
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------97b00ea402c0
+
+Parameters:
+__rdquery: SELECT  FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140208,20140508
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 09 2014 08:38:40.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_U_0jhmx4XuAEI5SGIixP1M5-dJFVq1vY1Y9-53LTFHeczlNTvx8o6ZdIQO2g
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a050f32570a1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:40:01.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Xh4bc8b_Tg2x_d8qSQVhlNByqUF7lWdZDSKS9nAtLPw_wf1kmfdSsCyemybg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 389
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a050f32570a1
+
+Parameters:
+__rdquery: SELECT Criteria,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:40:55.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UzOQk8BFx0qJ_y6GrSDvWYlNdYsMMmYpnKOFQ1d0gvdIhjsouvMg1Ha7JEyw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a050f32570a1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:48:06.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_U5VXrfJPzJL4C1kl8aJo6cdWVCyJUGQBy6AyIVt_1UEHqyraLE_DsLu3CpgQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------d23e0751a7f2
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:48:40.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XwpOxrBsyUZhW6E16EbFh4zDMyYEboi6ti5qdFYXIqwQA_IApFUTmTFq05pg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------e7b8422652e8
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:49:46.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WsPzFHZG8ihL1n_yrtI03oe2bE0KUY61n8Ah57QkpK0415X-F-45m3Gpnumw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a050f32570a1
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 08:59:12.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_U9MIgrNiP0K3l09woRt4vcH9O8XIhtDXCh3UFbINxlcPGTy8JLI8sRFsHxeg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------514c23e11fa1
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:01:38.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VMDYkcWbWXUF9BIz-2YRa3HTWBJ5Oshk4e-w6__YafRciC8JZU6bwe4jSx9g
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------514c23e11fa1
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:04:30.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UDsSNNVIlEsuNgQkc32227KsaeO8_Q9Pg3SHpABqx0O7I1iBfIw5w-wg2Quw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b3b44055984a
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:09:11.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WdwNlJgs7po3XgRLM2_2o97J1JNvOMrxUkldFl-5jJ3PZ90hPt39SvZf_hgg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b3b44055984a
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:11:01.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XHYoIqiO7P4CrTnrHcEEo_Q83i8wZrXPAvrIXW8E6lfmt4G3ytUyTvyRBtBg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a050f32570a1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:12:05.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Urr58B1h28fwk9JQuA0fEBIzLhocLa4oAhuvkuxPGjROzMmovQ5n_tmnhTfQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------d23e0751a7f2
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:14:12.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UgrFr85KPYOHuygZQgI2951NuBn89L-NtkFOwVFP8nkhXXm8pNFgtlnFoqaQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a050f32570a1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:14:41.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Xs1ipGQuwfSIDkjbLLib7jF0Nuv_NEe39esQcxago3YzGXCJVRcok7kCRE2g
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------514c23e11fa1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:15:03.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VX-Tl1aIw0kIU6toCunWJGP0Ab674F2VZbechqDhTFPwE1JAzeSask74t9DA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------315da15ce283
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:15:23.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_V_ktHl218Xh5ZskMOTiGF5rCaEOIVzHppFOIRvl0Ei-pjXPNPUBXABzHzBAQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b3b44055984a
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:15:55.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UyR85oyGVqaKCs35F-v_KDmoJ7AWg-gWftzA2zHJXHmlr-9filPH-MuRbH-g
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b3b44055984a
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:16:19.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WjUmFmjU048ozH_KVY3kyp5O1U_Jdzkd8xomJ9elBM26w9mvEuf3-cMDFGhQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------514c23e11fa1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:16:44.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_X2YzSD1QoJCusIJZURmHZ7gFVWFqQqXjfuzzSc4-XcbdeijaNl1KqbJ4vRBA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------fe4665bd22ee
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:19:05.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VZaQB3xXpTgiN65t1kDCWrb0SbK37GaqsSxhdJqAMQEeW3ZZQk0tymtMIsbA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0ec4a19f3657
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:20:00.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XL_ItyVme3QbZ_yYu8--9xJwxk4SJPvCrynzusVt9YX9rr7QIDkoWJNHmiCA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------315da15ce283
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:20:17.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VMb0xzuGI0CVOVgxAUKAM2Sqt5FGTCX9QcH3g5pN05Lv0_bhdy_iR56bskpQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0badb33ee5cf
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:26:56.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UKuzvAoDSJLiu8mjLefgG3r61dGBWnGGQ89ll7zuAtBbzFo8fskFVA4jdkjg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0ec4a19f3657
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:27:17.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_ULdrhOQrnSljDTEUmhN9qJwRYYvhVNBP0FBCNE3LIuLCWtTE7dP3msp8gn8Q
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------514c23e11fa1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:28:22.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UWPhVIqKT-fvg3zB-I4j0x4LIuhJwqWWOd1suHRRjxlxn_py6qdcv3f0mdrQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------fe4665bd22ee
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:34:30.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Vri0JEhL6dpwLYmUUCKXroNQc_iHLgCK-shsQEq4ClmDri85AdMi61KF03mQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------514c23e11fa1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:35:58.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UfZHozH7SeMePQGCAAT7A2wtXT0gyKiT4WWCiPhd9Gp6QluNebA16-coAkPw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------e6e6d00939dd
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:36:15.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_V8uBwMa6d8D3yjLzbyqcIVr1pIFnazfapCE6_MYAIcilhH2k2XPEX68QUrSw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b3b44055984a
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:37:04.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UojisQM-jNq68ojvRP6U7Smhrd2Y-NqTNoR0C6HdAJ3Yx-J_4sIG_VtQXE5w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0badb33ee5cf
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:37:32.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Ukpz4qY3FtKc2vBXzRZXUpFkfMBRyvz8FRYhghlPF-T3z5n777BzPHO4L90w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b3b44055984a
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:38:17.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VNLjgVsVqX58RWd0EPt6EmIJp8xYhnXW6GwhdKC6CzH0rv8nViNVnqQavIfw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------fe4665bd22ee
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:41:07.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UP0ZugMasX7uOdOlQRsfSkTIL92Z9nJuPBjySoq82ZD-IqHzFjTd1z5kwgJQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------048c541bfb5f
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:41:22.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W7BGHMwa1YsmEOX_70XRHa14QppRYsN-NtkrqOzA4BGu2ZePfVyRKUlGlwFw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0ec4a19f3657
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:42:29.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_U9S8I_p-jnEmF0UQ0k19RwN2sJS67Wvs7k8Fd8kpIZFIWEO3LqDahFYxp1fA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------fe4665bd22ee
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:43:06.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UY5Ts82CXdB92dxdJ5dNjA0X67NeLPvwQ0fnIFAdOizMUrIqUvJ13Ed4mCTw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0badb33ee5cf
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:44:29.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UV_ufbAHGvyTy2z3SeMtlyMqAvh4EQuiobUXktdTk7Isb3fAbSGCfDuXHM_g
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 371
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------048c541bfb5f
+
+Parameters:
+__rdquery: SELECT Id FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:44:42.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VDERAU5roK2I4DlhZISP3brPbtwYNN8_yjsnE7VT_eUtdouXA6V6wqnb9lwg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 371
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------e6e6d00939dd
+
+Parameters:
+__rdquery: SELECT Id FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:47:35.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_U9pJv2NWQ2gZLhln6_oa4QC7PTw0jbWsZxmnkyWEGmSJb9aN9kBBKhcDHLCQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 376
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0badb33ee5cf
+
+Parameters:
+__rdquery: SELECT Id,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:47:46.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WIXUHXdKP67rIw2Z1Gpx9ToF15D_bP2U3DOAx6rRHiS4fVYz7igPyjYcSPIA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 376
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0ec4a19f3657
+
+Parameters:
+__rdquery: SELECT Id,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:47:58.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UagmG5lbdgSS6iy_bnJc5C2BERV_CWqhxkcHwu6PL35OoTbdLa1KBLeBzdHg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 371
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------348c8aba396f
+
+Parameters:
+__rdquery: SELECT Id FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:48:09.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WUq-g1rHLJm0UKLQa4NAqLlMeUeB3U5IlxqAePsxkDzxih_neAD9dE1_mY9w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------348c8aba396f
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:48:53.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W95PPK1zbgOphXOun8HNkHnOFqrx68CVxk7h_qp8boaOjNRzvhpdLh_u-zQg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 377
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------54d379e39e51
+
+Parameters:
+__rdquery: SELECT Criteria FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:49:09.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XYkNP-7lkGeVJWbybV5J08c5iK1Y99QNIV_Y8Hy9_th7gd02Juy2O-ZGNaug
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 382
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------54d379e39e51
+
+Parameters:
+__rdquery: SELECT Criteria,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:51:46.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Uqi_ZHthpi_SmbySHmVI1klq_BQ-79AE8VhDdUp5OtG2arW43-IMEtaDskcQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 382
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------e6e6d00939dd
+
+Parameters:
+__rdquery: SELECT Criteria,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:53:45.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VIhVB2aHL0kP32f3QM0cu0PkyKXoEEuOs3NIfRnJOtLiorEENQSsAKw74h6w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 382
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------13c95b04c064
+
+Parameters:
+__rdquery: SELECT Criteria,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:54:14.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Ve8E-iC1sjF5zQH41f2Nt6gAzQHGk19oeatUVOtz0BJZILQuDKFxLH4MQZOg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 382
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------2770657921a1
+
+Parameters:
+__rdquery: SELECT Criteria,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:57:56.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WcbvU2NxqWRYzoqaY8fVik1VzYVYk3Cw0103aMjLq2irSyzPi4OT7U9OnkwA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 371
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------4339f8131aaa
+
+Parameters:
+__rdquery: SELECT Id FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 09:58:56.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UFVqGc1ZrLTABT3MJmg1fN3rGo16hDswqrq79pIdCZCqjC5cZ72Ar0VE2Sqg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 376
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------54d379e39e51
+
+Parameters:
+__rdquery: SELECT Id,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:00:08.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_V-TJzTMxAX7fEoDxpXGlkZu0VyB8XD8pCqxdbgz4WVhLDgbcVgVVbokU-tFA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 376
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0badb33ee5cf
+
+Parameters:
+__rdquery: SELECT Id,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:02:42.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W2BDF_L-pu8WDkw5RqUGKqjrnrIKpuWbE3n4A3dSh1mPntWV-FjV2xij_E6w
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 376
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------e6e6d00939dd
+
+Parameters:
+__rdquery: SELECT Id,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:03:06.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W2rSA3iBkE3FFcdnFoExjbBqOcMOigVvnY7xX_r6HR4FG6mE-JUukeYYadZw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------4339f8131aaa
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:03:28.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Wc7oj55ZlmX81pU4-5OTRbts6cg1P0VcWqooUt0iJp1Rk8jljh-ZiqrlQQ7A
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 373
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------2770657921a1
+
+Parameters:
+__rdquery: SELECT Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:03:39.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WrBtUAWVhTgZa26r1CEnWzZFmDtnFlCuaGVeNF8QbuQwae6W4IPHTdeNOJUQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 375
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------9b5b50fd7a1b
+
+Parameters:
+__rdquery: SELECT Clicks FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:03:58.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Uni_kTVeTSg1w0zrEknwp4_3htZdyW_-DiqkTC_vxjG6CZGh_WXoFT91SfUw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 401
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------4339f8131aaa
+
+Parameters:
+__rdquery: SELECT Criteria,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:04:18.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VbDlIcEQVQ08sp_nWLagU0EwM8KQj4eJqneakBs6VyIQJAaAPDOsFjZjEDXg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------048c541bfb5f
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:05:03.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Vkq9QQWPN1I0ngODjFhRrdYOInc7O8dIxYO4p-yQYlSvKLwpjmNsumrkUPKA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 375
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------048c541bfb5f
+
+Parameters:
+__rdquery: SELECT Clicks FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:05:15.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VtXpnoL80gaUEwg_D9MS5-gq2cFsmtEFrIOpRSGQmn96vnlGlnisScojOYpg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 380
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------54701fceef95
+
+Parameters:
+__rdquery: SELECT Impressions FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:05:27.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XK6uWjfKi9-IcVj6e5zVlsufw8xRhDmAnwtT5_eMX71gPQW8yiRyNkb7yEag
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 378
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------54d379e39e51
+
+Parameters:
+__rdquery: SELECT AdGroupId FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:06:30.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WTnYSgOgpYWWUj3pk5Tde7EfEeqVaTboMw1Emu8d2J_Y-42oucGk0CqeR5Cw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 378
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------6d06f539fd2a
+
+Parameters:
+__rdquery: SELECT AdGroupId FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:06:54.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Wr5AMvG_vCoNeKii_HW_5xUG9dmGVwoP9IbO7z-kM3nVa2KPhKET1JpgBlPw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------6d06f539fd2a
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:08:15.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XCmVOHM5nk_o3HaNKPPiPMok1CP6QxbDk6NAErHved6a76shjdeJyFcXH1fA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 414
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------348c8aba396f
+
+Parameters:
+__rdquery: SELECT Criteria,CampaignName,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:10:47.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VLobIz4a-UYG6-C8PqcHaRocML8SM7PDpNMyDlXl9pl7EnrYdelBaKgv93rQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------348c8aba396f
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:10:58.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VmC1HPE_S0XSTLewfO7UaDZzSXa31-QbMBFZ5OmT9BEsvAqtaxC7E3WU24qQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 369
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------525b03263b3c
+
+Parameters:
+__rdquery: SELECT  FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: CSV
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 09 2014 10:15:27.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_X5fksisrQZRtHS2A3F9QGuK5_y8zGcu_xs_7QD5tIA-SyqrWH_cLW40psOdw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------458bc38d3e08
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:15:39.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UTvZcISEahHNd8Q1BWOe8ZKCkDMvD42FXVK3HHtqhmbUMsFsnYvoaV_bbsYA
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 369
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------048c541bfb5f
+
+Parameters:
+__rdquery: SELECT  FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: CSV
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 09 2014 10:55:32.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_XyCk9FsIlctZ0yyvRHf5FNOVYaM-GYCAxU7Y8pAOed4D8wqgIx0FK0TIXJaw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 448
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------2770657921a1
+
+Parameters:
+__rdquery: SELECT Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 10:55:43.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_X2GQznMjArOT1QmdiyGmF9ugBInr6UfL9J-UmQxB2QpGcy48vAqvvoW_XHlg
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 369
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------2770657921a1
+
+Parameters:
+__rdquery: SELECT  FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: CSV
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 09 2014 10:59:58.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_VuE-cP8ntr6mv3zwqni3nnIt2IwT5YyFD1pZotf6W2bolpWKpurjOkb0sZpw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 448
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------b5c1afd25764
+
+Parameters:
+__rdquery: SELECT Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 11:00:08.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_UmF0rSEcr9P6G8u0H1F8HoYMuRs8SkXs3j8FeL6sDvjb6kYzv8nnDAEKKrfQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------348c8aba396f
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: CSV
+
+Response Code: 200
+
+[May 09 2014 11:02:23.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_Vpj8x4PopUQz3Vz2U5BJJ_Pku3JZ-BTT9GJwTWUrDA936tEkaWydGFITOTtQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 441
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------ea3f0cbe2e55
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName =  DURING 20140208,20140508
+__fmt: XML
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QueryError.PARSING_FAILED', Trigger = '', FieldPath = ''. 
+
+[May 09 2014 11:27:46.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_W6dch_KI6z8aw5c2GOEymbdgaRYUBJswwi6kh0VmZ-yefxJRxw0HbtFoQcpQ
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 448
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------6d06f539fd2a
+
+Parameters:
+__rdquery: SELECT Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: XML
+
+Response Code: 200
+
+[May 09 2014 11:28:25.000000 - INFO] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.1.AADtN_WEd5fxj2alBUf8_cBKSRjUCoEPakRBSpKHaFBI-3klwnOzgtGgSSiQGIO7Aw
+developerToken: L6oLZINEd5p06CvWp99H1w
+clientCustomerId: 542-898-8567
+returnMoneyInMicros: false
+Content-Length: 451
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------ea3f0cbe2e55
+
+Parameters:
+__rdquery: SELECT Id,Criteria,CriteriaType,CampaignId,CampaignName,AdGroupId,Impressions,Clicks,Cost FROM CRITERIA_PERFORMANCE_REPORT WHERE Status IN [ACTIVE, PAUSED] AND CampaignName = CampTest1  DURING 20140301,20140401
+__fmt: CSV
+
+Response Code: 200
+
